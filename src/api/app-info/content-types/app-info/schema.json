@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_infos",
+  "info": {
+    "singularName": "app-info",
+    "pluralName": "app-infos",
+    "displayName": "App Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "text",
+      "required": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string",
+      "regex": "^6?(?:01[02346-9]\\d{7}|011\\d{8}|015\\d{8}|03\\d{8}|0[4-9]\\d{7})$",
+      "required": true
+    }
+  }
+}
