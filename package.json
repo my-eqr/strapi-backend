@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@creazy231/strapi-plugin-apollo-sandbox": "^0.0.13",
     "@strapi/plugin-cloud": "4.17.1",
     "@strapi/plugin-graphql": "4.17.1",
     "@strapi/plugin-i18n": "4.17.1",
@@ -21,6 +22,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-content-type-explorer": "^0.2.2",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "strapi-plugin-multi-select": "^1.2.3",
     "styled-components": "5.3.3"
   },
   "author": {

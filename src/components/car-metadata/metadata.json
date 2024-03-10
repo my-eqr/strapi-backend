@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_car_metadata_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "modelYear": {
+      "type": "component",
+      "repeatable": false,
+      "component": "year-range.year-range"
+    },
+    "bodyType": {
+      "type": "enumeration",
+      "enum": [
+        "Coupe",
+        "Convertible",
+        "Sedan",
+        "SUV",
+        "Hatchback",
+        "Wagon",
+        "Truck",
+        "Van",
+        "Pickup",
+        "Touring",
+        "MPV"
+      ],
+      "required": true
+    },
+    "vehicleType": {
+      "type": "enumeration",
+      "enum": [
+        "BEV",
+        "HEV",
+        "PHEV"
+      ],
+      "required": true
+    }
+  }
+}

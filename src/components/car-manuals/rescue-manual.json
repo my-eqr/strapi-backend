@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_car_manuals_rescue_manuals",
+  "info": {
+    "displayName": "Rescue Manual",
+    "icon": "doctor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rescueSheet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "originalLink": {
+      "type": "text"
+    }
+  }
+}

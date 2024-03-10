@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_year_range_year_ranges",
+  "info": {
+    "displayName": "Year Range",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "string",
+      "regex": "^(?:(0[1-9]|1[012])\\/)?(19|20)\\d{2}$"
+    },
+    "end": {
+      "type": "string",
+      "regex": "^(?:(0[1-9]|1[012])\\/)?(19|20)\\d{2}$"
+    }
+  }
+}

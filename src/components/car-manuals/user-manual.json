@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_car_user_manuals_user_manuals",
+  "info": {
+    "displayName": "Owners Manual",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "userManual": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "originalLink": {
+      "type": "text",
+      "required": false
+    }
+  }
+}
